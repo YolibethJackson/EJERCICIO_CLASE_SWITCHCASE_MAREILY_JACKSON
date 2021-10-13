@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO EN CLASES</title>
+</head>
+<script>
+    var compra = parseFloat(prompt("ingresael valor de la compra"))
+    var edad = parseInt(prompt("Ingresa tu edad"))
+
+switch(edad){
+    case 18: alert("tienes 10% de descuento")
+    document.write(`Descuento: ${compra*0.1}`)
+    document.write(`Total a Pgar: ${compra-(compra*0.1)}`)
+    break
+    case 25: alert("tienes 20% de descuento")
+    document.write(`Descuento: ${compra*0.2}`)
+    document.write(`Total a Pgar: ${compra-(compra*0.2)}`)
+    break
+    case 40: alert("tienes 30% de descuento")
+    document.write(`Descuento: ${compra*0.3}`)
+    document.write(`Total a Pgar: ${compra-(compra*0.3)}`)
+    break
+    case 50: alert("tienes 50% de descuento")
+    document.write(`Descuento: ${compra*0.5}`)
+    document.write(`Total a Pgar: ${compra-(compra*0.5)}`)
+    break
+    default:  document.write("lo siento, tu edad no esta dentro del rango")
+    break
+
+}
+
+    </script>
+<body>
+    
+</body>
+</html>
